@@ -41,11 +41,10 @@ Whereas Claude hard-coded the filename as `last_names.csv`, my solution checks f
 
 ## What changes would you make to your implementation based on the LLM suggestions?
 
-**Improved docstrings**
-Claude's version included more detailed docstrings for each method, explicitly describing parameters and return values. The original code had class-level docstrings, but individual methods relied on self-explanatory naming alone. Adding per-method documentation in the style Claude used would make the code easier to maintain and review.
-
-**Separating user interaction**
-Claude suggested splitting the user interaction loop into a separate method called `prompt_user`, rather than keeping it inside `run`. This would improve the design because `run` would only be responsible for setup and orchestration, following the single-responsibility principle.
+- Centralized randomness using random.Random(seed) for reproducibility
+- Added by-year query in addition to by-decade
+- Improved CSV parsing to handle last_names files with or without Decade column
+- Allowed two root individuals to have different last names
 
 ---
 
