@@ -1,0 +1,36 @@
+Q1 — How does Awad categorize AI?
+
+One of the first things that struck me while reading this paper is that Awad goes to great lengths to avoid discussing AI as a monolithic concept, instead dividing up different types of AI systems based upon what role that type of AI actually plays in a given research process, which I think is a much more relevant question to ask than whether or not AI is being used at all.
+
+There are four main categories of AI, which are predictive AI, focused upon predicting outcomes, descriptive, focused upon making sense of large amounts of data or unstructured text, generative, focused upon creating new output such as text, images, code, or synthetic data, and optimization, focused upon informing decisions about what experiments to run or what actions to take. In addition to these, there is also the category of causal methods, interpretability methods, privacy-aware methods, and what Awad terms "meta-scientific" methods, which are focused upon supporting the scientific process in general, rather than any particular task that is part of that process.
+
+I think that this is a helpful taxonomy, as it moves the discussion of AI away from hype and towards more practical concerns, such as what you are actually trying to accomplish at a given stage in the process, what type of AI that is, and what the risks of that type of AI are to you as a scientist. A scientist using generative AI to draft hypotheses is not in the same situation as one using predictive AI to model climate change, and so forth.
+
+
+Q2 — Does Awad distinguish AI as a tool versus a collaborator?
+
+Yes, and I think that's one of the more interesting tensions in the paper, at least to me. When we think of AI as a tool, we're mostly just talking about speeding up or automating human processes, like coding, searching literature, predicting experimental outcomes, or running part of a lab procedure. We're still the ones in charge of the research, just with a few processes sped up or made more cost-effective.
+
+Of course, the situation changes somewhat when we start to think about the paper's discussion of meta-scientific systems and agentic systems. These systems, according to the paper, can "propose hypotheses, plan sequences of actions, connect ideas across disciplines, adjust their strategy based on outcomes," which is somewhat like the approach of a junior scientist in their own right. Section 1.7 of the paper gives examples of systems like LilaSciences and Google Co-Scientist, which seem to be in these spaces.
+
+To me, I think that there's a bit of truth to each of these views, at least in terms of current uses of AI in science. Most of what I've seen so far feels like an improvement upon existing computational tools, just faster, more extensive, but still in the same realm of "helping human processes along." I think that the examples of agentic systems, however, are qualitatively different because they start to touch upon parts of the research process that have, in the past, been considered exclusively human, like developing a hypothesis, determining what to study next, etc. How much of that is collaboration, how much of that is just a more advanced tool, is certainly up in the air, at least in terms of current state-of-the-art systems, which is probably appropriate given how new these systems are.
+
+
+Q3 — What risks does Awad identify for AI in science?
+
+The paper is refreshingly candid about the problems, which I think is great. One of the issues that I think is particularly interesting is the one about the reliability of these new generative models, which can output authoritative-sounding statements that are just plain wrong, including fabricated citations. I think the Galactica model is a great example of that, since that model was withdrawn partly because of that problem.
+
+Related to that is the problem of opacity, which is that many of these new models are essentially black boxes, meaning that while they are good at making predictions, it is difficult to understand why they are making those predictions, particularly in fields like science, where understanding the mechanisms is part of the point of being a scientist.
+
+Another problem that is raised is that of bias, particularly in language models, since these can end up incorporating social stereotypes, particularly in fields like the analysis of literature, since these are text-heavy fields. Reproducibility is also a problem, particularly in cases where the model, its training data, or its parameters are not made openly available, or in cases where explanation techniques like SHAP or LIME are so sensitive to the particular data set that the results cannot be easily generalized across different sets of data.
+
+
+Q4 — What is Awad's overall argument, and do you agree?
+
+Awad’s central argument, as I understand it, is that the impact of AI will not simply be the acceleration of existing scientific practice, but a transformation in the very nature of the practice itself. Although the paper does not go so far as to say that such a transformation has yet occurred, I think it’s safe to say that the author certainly expects it will, and perhaps soon, as the agentic systems described here continue to improve.
+
+In the final sections of the paper, there’s even a nod to the possibility that this could involve a Kuhnian paradigm shift, not simply in the speed or scale of the science being conducted, but in the very logic and approach taken.
+
+I think I’m a little swayed. I think the most significant and certain impact in the near term will simply be the speed at which these systems operate. Faster modelling, faster literature review, cheaper hypothesis exploration. This, I think, will have a profound impact in fields like drug discovery or climate science, where there’s simply so much data and the speed at which you’re able to iterate and refine your approach is so critical.
+
+But assuming that these agentic systems really will be able to propose and interpret experiments, I think the experience of conducting science could change significantly. More time spent thinking about what’s being conducted, and less time spent on the actual conducting. I think I’m still a little unsure as to whether or not this would constitute a Kuhnian paradigm shift or simply a more efficient division of labour. I think I’m a little more open to the idea than I was before reading this paper, though.
